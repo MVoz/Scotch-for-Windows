@@ -1,0 +1,3 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/CMake/share/cmake-3.13/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+E:/tools/vcpkg/buildtrees/scotch/src/libscotch/libptscotch/CMakeLists.txt

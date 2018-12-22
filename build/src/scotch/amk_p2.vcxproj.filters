@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\scotch\amk_p2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\tools\vcpkg\buildtrees\scotch\src\scotch\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DD5810CA-D9AD-31CC-830F-37512451E4C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

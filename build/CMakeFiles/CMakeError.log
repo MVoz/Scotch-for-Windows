@@ -1,0 +1,140 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a8f56.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.9.20+g88f5fadfbe для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата Вс 23 12 18 1:32:16.
+Проект "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_a8f56.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_a8f56.dir\Debug\".
+  Создание каталога "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_a8f56.dir\Debug\cmTC_a8f56.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_a8f56.dir\Debug\cmTC_a8f56.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "E:\tools\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8f56.dir\Debug\\" /Fd"cmTC_a8f56.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27024.1 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a8f56.dir\Debug\\" /Fd"cmTC_a8f56.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+E:\tools\vcpkg\installed\x64-windows\include\pthread.h(271): error C2011: timespec: переопределение типа "struct" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_a8f56.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\time.h(39): note:  см. объявление "timespec"
+Сборка проекта "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_a8f56.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+
+Ошибка сборки.
+
+"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_a8f56.vcxproj" (целевой объект по умолчанию) (1) ->
+(ClCompile конечный объект) -> 
+  E:\tools\vcpkg\installed\x64-windows\include\pthread.h(271): error C2011: timespec: переопределение типа "struct" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_a8f56.vcxproj]
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:03.42
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_39cab.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.9.20+g88f5fadfbe для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата Вс 23 12 18 1:32:20.
+Проект "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_39cab.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_39cab.dir\Debug\".
+  Создание каталога "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_39cab.dir\Debug\cmTC_39cab.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_39cab.dir\Debug\cmTC_39cab.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "E:\tools\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39cab.dir\Debug\\" /Fd"cmTC_39cab.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue  /Qstd=c99 E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27024.1 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39cab.dir\Debug\\" /Fd"cmTC_39cab.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue  /Qstd=c99 E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+cl : командная строка warning D9002: пропуск неизвестного параметра "/Qstd=c99" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_39cab.vcxproj]
+E:\tools\vcpkg\installed\x64-windows\include\pthread.h(271): error C2011: timespec: переопределение типа "struct" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_39cab.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\time.h(39): note:  см. объявление "timespec"
+Сборка проекта "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_39cab.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+
+Ошибка сборки.
+
+"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_39cab.vcxproj" (целевой объект по умолчанию) (1) ->
+(ClCompile конечный объект) -> 
+  cl : командная строка warning D9002: пропуск неизвестного параметра "/Qstd=c99" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_39cab.vcxproj]
+
+
+"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_39cab.vcxproj" (целевой объект по умолчанию) (1) ->
+(ClCompile конечный объект) -> 
+  E:\tools\vcpkg\installed\x64-windows\include\pthread.h(271): error C2011: timespec: переопределение типа "struct" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_39cab.vcxproj]
+
+    Предупреждений: 1
+    Ошибок: 1
+
+Прошло времени 00:00:03.28
+
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_97214.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.9.20+g88f5fadfbe для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата Вс 23 12 18 1:32:25.
+Проект "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_97214.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_97214.dir\Debug\".
+  Создание каталога "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_97214.dir\Debug\cmTC_97214.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_97214.dir\Debug\cmTC_97214.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "E:\tools\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97214.dir\Debug\\" /Fd"cmTC_97214.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue  /Qstd=c99 E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27024.1 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97214.dir\Debug\\" /Fd"cmTC_97214.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue  /Qstd=c99 E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c
+  HAVE_STRINGS_H.c
+  
+cl : командная строка warning D9002: пропуск неизвестного параметра "/Qstd=c99" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_97214.vcxproj]
+E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2): fatal error C1083: Не удается открыть файл включение: strings.h: No such file or directory, [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_97214.vcxproj]
+Сборка проекта "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_97214.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+
+Ошибка сборки.
+
+"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_97214.vcxproj" (целевой объект по умолчанию) (1) ->
+(ClCompile конечный объект) -> 
+  cl : командная строка warning D9002: пропуск неизвестного параметра "/Qstd=c99" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_97214.vcxproj]
+
+
+"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_97214.vcxproj" (целевой объект по умолчанию) (1) ->
+(ClCompile конечный объект) -> 
+  E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2): fatal error C1083: Не удается открыть файл включение: strings.h: No such file or directory, [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_97214.vcxproj]
+
+    Предупреждений: 1
+    Ошибок: 1
+
+Прошло времени 00:00:03.48
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+

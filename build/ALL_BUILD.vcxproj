@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{696CE307-D627-35FF-98EE-A0E208E62E02}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\tools\vcpkg\buildtrees\scotch\include\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\tools\vcpkg\buildtrees\scotch\include\win32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\tools\vcpkg\buildtrees\scotch\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/tools/vcpkg/buildtrees/scotch/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/tools/vcpkg/buildtrees/scotch -BE:/tools/vcpkg/buildtrees/scotch/build --check-stamp-file E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/tools/vcpkg/buildtrees/scotch/CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindBZip2.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindMPI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindMPI\test_mpi.c;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;E:\tools\vcpkg\buildtrees\scotch\CMakeLists.txt;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\3.13.1\CMakeCCompiler.cmake;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\3.13.1\CMakeRCCompiler.cmake;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\3.13.1\CMakeSystem.cmake;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_MALLOC_H.c;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\feature_tests.c;E:\tools\vcpkg\buildtrees\scotch\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/tools/vcpkg/buildtrees/scotch/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/tools/vcpkg/buildtrees/scotch -BE:/tools/vcpkg/buildtrees/scotch/build --check-stamp-file E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/tools/vcpkg/buildtrees/scotch/CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakePushCheckState.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindBZip2.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindMPI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindMPI\test_mpi.c;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindZLIB.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;E:\tools\vcpkg\buildtrees\scotch\CMakeLists.txt;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\3.13.1\CMakeCCompiler.cmake;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\3.13.1\CMakeRCCompiler.cmake;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\3.13.1\CMakeSystem.cmake;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_MALLOC_H.c;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c;E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\feature_tests.c;E:\tools\vcpkg\buildtrees\scotch\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\ZERO_CHECK.vcxproj">
+      <Project>{A4FCCCD0-A8B8-39E4-83D0-72B7D55D35B8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\acpl.vcxproj">
+      <Project>{00C10180-7551-3EEA-891D-A455155826EF}</Project>
+      <Name>acpl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\amk_ccc.vcxproj">
+      <Project>{6E46FB0C-0BCA-3B94-9884-9F3F133F8E44}</Project>
+      <Name>amk_ccc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\amk_fft2.vcxproj">
+      <Project>{42675CB5-F1BE-3E68-9DC6-E30118870185}</Project>
+      <Name>amk_fft2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\amk_grf.vcxproj">
+      <Project>{71CB0E2B-241D-318D-9DFA-B7D5869F8ED7}</Project>
+      <Name>amk_grf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\amk_hy.vcxproj">
+      <Project>{3BCAFD30-37BD-3C77-9253-6582F53EE516}</Project>
+      <Name>amk_hy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\amk_m2.vcxproj">
+      <Project>{377F5079-2F44-3CBE-A329-9E4EDDCCC418}</Project>
+      <Name>amk_m2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\amk_p2.vcxproj">
+      <Project>{6B0EEB73-16F7-33E1-8424-959700EDB4C0}</Project>
+      <Name>amk_p2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\atst.vcxproj">
+      <Project>{1795D264-7DE6-3E94-A998-CFC40AFC29C2}</Project>
+      <Name>atst</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\ptscotch\dggath.vcxproj">
+      <Project>{F9459C91-0CE6-3A71-942B-309D24102B8B}</Project>
+      <Name>dggath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\ptscotch\dgmap.vcxproj">
+      <Project>{80983EEF-6A3A-3051-80B1-63EFCA29F508}</Project>
+      <Name>dgmap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\ptscotch\dgord.vcxproj">
+      <Project>{AEDDAEF6-625A-3F59-AEFE-6D55204638D1}</Project>
+      <Name>dgord</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\ptscotch\dgpart.vcxproj">
+      <Project>{499AC17B-DF1F-3633-9DD2-CE1BB8DF1D58}</Project>
+      <Name>dgpart</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\ptscotch\dgscat.vcxproj">
+      <Project>{33461681-2626-3617-A717-2B45BAF96700}</Project>
+      <Name>dgscat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\ptscotch\dgtst.vcxproj">
+      <Project>{A8D31779-82F8-3C1F-9F62-AC0C07259618}</Project>
+      <Name>dgtst</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\esmumps\esmumps.vcxproj">
+      <Project>{7CE092CC-7CE8-38E5-8C42-43EAC46685F2}</Project>
+      <Name>esmumps</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\esmumps\exesmumps.vcxproj">
+      <Project>{A6083BF6-5913-3D65-851C-BBF690F708E7}</Project>
+      <Name>exesmumps</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\esmumps\ptesmumps\exptesmumps.vcxproj">
+      <Project>{8A872168-61D1-359C-B1D1-6BA4A88B3A47}</Project>
+      <Name>exptesmumps</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gbase.vcxproj">
+      <Project>{08964DF2-BDEF-3776-BDA8-0150B5486134}</Project>
+      <Name>gbase</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gcv.vcxproj">
+      <Project>{E7B6E8F3-1C58-3A96-BC56-226E4517CF36}</Project>
+      <Name>gcv</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gmap.vcxproj">
+      <Project>{F2572EB4-5712-3FC7-AB49-19B5A6710593}</Project>
+      <Name>gmap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gmk_hy.vcxproj">
+      <Project>{C19F27C7-A163-3E74-84C7-AFCEF240C687}</Project>
+      <Name>gmk_hy</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gmk_m2.vcxproj">
+      <Project>{B46EF62B-331C-3D23-8085-FCD8B0D247F7}</Project>
+      <Name>gmk_m2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gmk_m3.vcxproj">
+      <Project>{6BAA05BB-AA26-39F5-B408-FA536407DC5B}</Project>
+      <Name>gmk_m3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gmk_msh.vcxproj">
+      <Project>{0065FBE8-A5D2-3BD0-904B-3360360E45B4}</Project>
+      <Name>gmk_msh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gmk_ub2.vcxproj">
+      <Project>{3BDCCD6B-BA6A-37AC-991B-FA993EEC8185}</Project>
+      <Name>gmk_ub2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gmtst.vcxproj">
+      <Project>{F36EE26E-40D8-3DE0-8988-CF8DB220710F}</Project>
+      <Name>gmtst</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gord.vcxproj">
+      <Project>{42E6E7E4-B508-377B-9E00-E55FA09B9028}</Project>
+      <Name>gord</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gotst.vcxproj">
+      <Project>{CC602D64-DA0F-31A9-B126-02FA27D2E770}</Project>
+      <Name>gotst</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gout.vcxproj">
+      <Project>{C6CC1798-2C1A-398C-B18A-8020CCEB0DA5}</Project>
+      <Name>gout</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gpart.vcxproj">
+      <Project>{76055C34-3232-3311-B8B0-3D5DB9237BB6}</Project>
+      <Name>gpart</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gscat.vcxproj">
+      <Project>{E114FA07-0AC8-3B78-9418-628AEB1DBCB8}</Project>
+      <Name>gscat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\gtst.vcxproj">
+      <Project>{62E9A274-EFB7-3556-A33A-F79CDCD87057}</Project>
+      <Name>gtst</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\mcv.vcxproj">
+      <Project>{AAB4B305-CA5D-37BC-99E2-25D750849850}</Project>
+      <Name>mcv</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\mmk_m2.vcxproj">
+      <Project>{04205217-DE19-3D51-84B2-30F1FCA73B54}</Project>
+      <Name>mmk_m2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\mmk_m3.vcxproj">
+      <Project>{219385AA-2888-3983-ACB9-AF80F95ABB2F}</Project>
+      <Name>mmk_m3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\mord.vcxproj">
+      <Project>{13B13E46-F76F-3521-B533-AEEBD11A6A17}</Project>
+      <Name>mord</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\scotch\mtst.vcxproj">
+      <Project>{04DFECA4-BE3A-3137-A5ED-459AB12C8FE9}</Project>
+      <Name>mtst</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\esmumps\ptesmumps\ptesmumps.vcxproj">
+      <Project>{93BE27F8-899C-31FC-BCA3-5796F6AEFCCA}</Project>
+      <Name>ptesmumps</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\libscotch\libptscotch\ptscotch.vcxproj">
+      <Project>{05546E80-119F-3176-BC60-99E64E74C0A5}</Project>
+      <Name>ptscotch</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\libscotch\scotch.vcxproj">
+      <Project>{9B79866B-9648-321C-813A-B4FB5743E4B5}</Project>
+      <Name>scotch</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05546E80-119F-3176-BC60-99E64E74C0A5}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ptscotch</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\tools\vcpkg\buildtrees\scotch\build\src\libscotch\libptscotch\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ptscotch.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ptscotch-6.0.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\tools\vcpkg\buildtrees\scotch\build\src\libscotch\libptscotch\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ptscotch.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ptscotch-6.0.3</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\tools\vcpkg\buildtrees\scotch\include\win32;E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\..;E:\tools\vcpkg\buildtrees\scotch\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Qstd=c99</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SCOTCH_PTSCOTCH;COMMON_WINDOWS;HAVE_UINT_T;restrict=__restrict;YY_NO_UNISTD_H;COMMON_STUB_FORK;COMMON_RANDOM_FIXED_SEED;SCOTCH_RENAME;SCOTCH_RENAME_PARSER;HAVE_MALLOC_H;HAVE_STDINT_H;COMMON_FILE_COMPRESS_GZ;COMMON_FILE_COMPRESS_BZ2;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SCOTCH_PTSCOTCH;COMMON_WINDOWS;HAVE_UINT_T;restrict=__restrict;YY_NO_UNISTD_H;COMMON_STUB_FORK;COMMON_RANDOM_FIXED_SEED;SCOTCH_RENAME;SCOTCH_RENAME_PARSER;HAVE_MALLOC_H;HAVE_STDINT_H;COMMON_FILE_COMPRESS_GZ;COMMON_FILE_COMPRESS_BZ2;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\tools\vcpkg\buildtrees\scotch\include\win32;E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\..;E:\tools\vcpkg\buildtrees\scotch\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\tools\vcpkg\buildtrees\scotch\include\win32;E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\..;E:\tools\vcpkg\buildtrees\scotch\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\tools\vcpkg\buildtrees\scotch\include\win32;E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\..;E:\tools\vcpkg\buildtrees\scotch\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Qstd=c99 -O3</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SCOTCH_PTSCOTCH;COMMON_WINDOWS;HAVE_UINT_T;restrict=__restrict;YY_NO_UNISTD_H;COMMON_STUB_FORK;COMMON_RANDOM_FIXED_SEED;SCOTCH_RENAME;SCOTCH_RENAME_PARSER;HAVE_MALLOC_H;HAVE_STDINT_H;COMMON_FILE_COMPRESS_GZ;COMMON_FILE_COMPRESS_BZ2;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SCOTCH_PTSCOTCH;COMMON_WINDOWS;HAVE_UINT_T;restrict=__restrict;YY_NO_UNISTD_H;COMMON_STUB_FORK;COMMON_RANDOM_FIXED_SEED;SCOTCH_RENAME;SCOTCH_RENAME_PARSER;HAVE_MALLOC_H;HAVE_STDINT_H;COMMON_FILE_COMPRESS_GZ;COMMON_FILE_COMPRESS_BZ2;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\tools\vcpkg\buildtrees\scotch\include\win32;E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\..;E:\tools\vcpkg\buildtrees\scotch\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\tools\vcpkg\buildtrees\scotch\include\win32;E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\..;E:\tools\vcpkg\buildtrees\scotch\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/tools/vcpkg/buildtrees/scotch/src/libscotch/libptscotch/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/tools/vcpkg/buildtrees/scotch -BE:/tools/vcpkg/buildtrees/scotch/build --check-stamp-file E:/tools/vcpkg/buildtrees/scotch/build/src/libscotch/libptscotch/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/tools/vcpkg/buildtrees/scotch/src/libscotch/libptscotch/CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\CMakeLists.txt;E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\tools\vcpkg\buildtrees\scotch\build\src\libscotch\libptscotch\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/tools/vcpkg/buildtrees/scotch/src/libscotch/libptscotch/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SE:/tools/vcpkg/buildtrees/scotch -BE:/tools/vcpkg/buildtrees/scotch/build --check-stamp-file E:/tools/vcpkg/buildtrees/scotch/build/src/libscotch/libptscotch/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/tools/vcpkg/buildtrees/scotch/src/libscotch/libptscotch/CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\CMakeLists.txt;E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\tools\vcpkg\buildtrees\scotch\build\src\libscotch\libptscotch\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_bd.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_df.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_ex.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_ml.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_sq.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_st.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_zr.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_check.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_gather_all.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_store.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\comm.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_allreduce.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_band.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_build.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_build_grid3d.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_build_hcub.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_check.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_coarsen.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_fold.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_fold_comm.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_fold_dup.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_gather.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_gather_all.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_ghst.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_halo.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_induce.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_io_load.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_io_save.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_match.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_match_sync_coll.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_match_sync_ptop.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_match_check.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_redist.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_scatter.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_view.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dmapping.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dmapping_io.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_gather.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_io.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_io_block.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_io_tree.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_perm.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_tree_dist.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_check.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_fold.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_gather.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_induce.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_order_nd.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_order_si.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_order_sq.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_order_st.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph_gather.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph_map_rb.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph_map_rb_map.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph_map_rb_part.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph_map_st.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_band.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_band_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_build.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_build_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_build_grid3d.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_build_grid3d_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_check.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_check_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_coarsen.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_coarsen_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_gather.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_gather_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_grow.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_halo.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_halo_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_induce.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_induce_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_io_load.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_io_load_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_io_save.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_io_save_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_map.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_map_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_map_view.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_map_view_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_gather.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_gather_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_io.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_io_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_io_block.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_io_block_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_perm.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_perm_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_tree_dist.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_tree_dist_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_redist.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_redist_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_scatter.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_scatter_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_stat.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_stat_f.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dmapping.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dorder.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_check.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_gather_all.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_bd.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_df.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_ml.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_sq.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_st.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_zr.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_store.c" />
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_error.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\ZERO_CHECK.vcxproj">
+      <Project>{A4FCCCD0-A8B8-39E4-83D0-72B7D55D35B8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\tools\vcpkg\buildtrees\scotch\build\src\libscotch\scotch.vcxproj">
+      <Project>{9B79866B-9648-321C-813A-B4FB5743E4B5}</Project>
+      <Name>scotch</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

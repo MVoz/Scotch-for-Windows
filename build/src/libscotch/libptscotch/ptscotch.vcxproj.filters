@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_bd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_df.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_ex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_ml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_sq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_st.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_bipart_zr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_check.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_gather_all.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\bdgraph_store.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\comm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_allreduce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_band.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_build.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_build_grid3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_build_hcub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_check.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_coarsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_fold.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_fold_comm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_fold_dup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_gather.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_gather_all.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_ghst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_halo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_induce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_io_load.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_io_save.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_match.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_match_sync_coll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_match_sync_ptop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_match_check.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_redist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_scatter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dgraph_view.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dmapping.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dmapping_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_gather.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_io_block.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_io_tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_perm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\dorder_tree_dist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_check.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_fold.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_gather.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_induce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_order_nd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_order_si.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_order_sq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\hdgraph_order_st.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph_gather.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph_map_rb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph_map_rb_map.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph_map_rb_part.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\kdgraph_map_st.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_band.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_band_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_build.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_build_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_build_grid3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_build_grid3d_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_check.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_check_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_coarsen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_coarsen_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_gather.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_gather_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_grow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_halo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_halo_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_induce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_induce_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_io_load.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_io_load_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_io_save.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_io_save_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_map.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_map_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_map_view.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_map_view_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_gather.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_gather_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_io_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_io_block.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_io_block_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_perm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_perm_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_tree_dist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_order_tree_dist_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_redist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_redist_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_scatter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_scatter_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_stat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dgraph_stat_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dmapping.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_dorder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_check.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_gather_all.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_bd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_df.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_ml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_sq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_st.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_separate_zr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\vdgraph_store.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\library_error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\tools\vcpkg\buildtrees\scotch\src\libscotch\libptscotch\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DD5810CA-D9AD-31CC-830F-37512451E4C0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,344 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine ���ᨨ 15.9.20+g88f5fadfbe ��� .NET Framework
+(C) ��௮��� �������� (Microsoft Corporation). �� �ࠢ� ���饭�.
+
+���ઠ ���� �� 23 12 18 1:30:48.
+�஥�� "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\3.13.1\CompilerIdC\CompilerIdC.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
+PrepareForBuild:
+  �������� ��⠫��� "Debug\".
+  �������� ��⠫��� "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  �������� "Debug\CompilerIdC.tlog\unsuccessfulbuild", ⠪ ��� �뫮 ������ "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "E:\tools\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"E:\tools\vcpkg\installed\x64-windows\include" /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\tools\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\3.13.1\CompilerIdC\.\CompilerIdC.exe
+AppLocalFromInstalled:
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\tools\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\3.13.1\CompilerIdC\.\CompilerIdC.exe" "E:\tools\vcpkg\installed\x64-windows\debug\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x64\cl.exe
+FinalizeBuildStatus:
+  ���� "Debug\CompilerIdC.tlog\unsuccessfulbuild" 㤠�����.
+  ���饭�� � "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+���ઠ �஥�� "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\3.13.1\CompilerIdC\CompilerIdC.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
+
+���ઠ �ᯥ譮 �����襭�.
+    �।�०�����: 0
+    �訡��: 0
+
+��諮 �६��� 00:00:44.20
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/3.13.1/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_2b8a0.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.9.20+g88f5fadfbe для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата Вс 23 12 18 1:31:34.
+Проект "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_2b8a0.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_2b8a0.dir\Debug\".
+  Создание каталога "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_2b8a0.dir\Debug\cmTC_2b8a0.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_2b8a0.dir\Debug\cmTC_2b8a0.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "E:\tools\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b8a0.dir\Debug\\" /Fd"cmTC_2b8a0.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27024.1 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b8a0.dir\Debug\\" /Fd"cmTC_2b8a0.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_2b8a0.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\tools\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_2b8a0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_2b8a0.lib" /MACHINE:X64  /machine:x64 cmTC_2b8a0.dir\Debug\testCCompiler.obj
+  cmTC_2b8a0.vcxproj -> E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_2b8a0.exe
+AppLocalFromInstalled:
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\tools\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_2b8a0.exe" "E:\tools\vcpkg\installed\x64-windows\debug\bin" "cmTC_2b8a0.dir\Debug\cmTC_2b8a0.tlog\cmTC_2b8a0.write.1u.tlog" "cmTC_2b8a0.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Файл "cmTC_2b8a0.dir\Debug\cmTC_2b8a0.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_2b8a0.dir\Debug\cmTC_2b8a0.tlog\cmTC_2b8a0.lastbuildstate".
+Сборка проекта "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_2b8a0.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:09.56
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_1ac9d.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.9.20+g88f5fadfbe для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата Вс 23 12 18 1:31:45.
+Проект "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_1ac9d.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_1ac9d.dir\Debug\".
+  Создание каталога "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_1ac9d.dir\Debug\cmTC_1ac9d.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_1ac9d.dir\Debug\cmTC_1ac9d.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "E:\tools\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ac9d.dir\Debug\\" /Fd"cmTC_1ac9d.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27024.1 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ac9d.dir\Debug\\" /Fd"cmTC_1ac9d.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_1ac9d.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\tools\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_1ac9d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_1ac9d.lib" /MACHINE:X64  /machine:x64 cmTC_1ac9d.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_1ac9d.vcxproj -> E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_1ac9d.exe
+AppLocalFromInstalled:
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\tools\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_1ac9d.exe" "E:\tools\vcpkg\installed\x64-windows\debug\bin" "cmTC_1ac9d.dir\Debug\cmTC_1ac9d.tlog\cmTC_1ac9d.write.1u.tlog" "cmTC_1ac9d.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Файл "cmTC_1ac9d.dir\Debug\cmTC_1ac9d.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_1ac9d.dir\Debug\cmTC_1ac9d.tlog\cmTC_1ac9d.lastbuildstate".
+Сборка проекта "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_1ac9d.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:08.78
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_209fe.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.9.20+g88f5fadfbe для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата Вс 23 12 18 1:31:56.
+Проект "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_209fe.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_209fe.dir\Debug\".
+  Создание каталога "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_209fe.dir\Debug\cmTC_209fe.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_209fe.dir\Debug\cmTC_209fe.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "E:\tools\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_209fe.dir\Debug\\" /Fd"cmTC_209fe.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\feature_tests.c
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27024.1 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_209fe.dir\Debug\\" /Fd"cmTC_209fe.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\feature_tests.c
+  feature_tests.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_209fe.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\tools\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_209fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_209fe.lib" /MACHINE:X64  /machine:x64 cmTC_209fe.dir\Debug\feature_tests.obj
+  cmTC_209fe.vcxproj -> E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_209fe.exe
+AppLocalFromInstalled:
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\tools\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_209fe.exe" "E:\tools\vcpkg\installed\x64-windows\debug\bin" "cmTC_209fe.dir\Debug\cmTC_209fe.tlog\cmTC_209fe.write.1u.tlog" "cmTC_209fe.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Файл "cmTC_209fe.dir\Debug\cmTC_209fe.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_209fe.dir\Debug\cmTC_209fe.tlog\cmTC_209fe.lastbuildstate".
+Сборка проекта "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_209fe.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:08.62
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if files malloc.h exist passed with the following output:
+Change Dir: E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_5dd33.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.9.20+g88f5fadfbe для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата Вс 23 12 18 1:32:30.
+Проект "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_5dd33.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_5dd33.dir\Debug\".
+  Создание каталога "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_5dd33.dir\Debug\cmTC_5dd33.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_5dd33.dir\Debug\cmTC_5dd33.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "E:\tools\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5dd33.dir\Debug\\" /Fd"cmTC_5dd33.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue  /Qstd=c99 E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_MALLOC_H.c
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27024.1 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5dd33.dir\Debug\\" /Fd"cmTC_5dd33.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue  /Qstd=c99 E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_MALLOC_H.c
+  HAVE_MALLOC_H.c
+  
+cl : командная строка warning D9002: пропуск неизвестного параметра "/Qstd=c99" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_5dd33.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_5dd33.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\tools\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_5dd33.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_5dd33.lib" /MACHINE:X64  /machine:x64 cmTC_5dd33.dir\Debug\HAVE_MALLOC_H.obj
+  cmTC_5dd33.vcxproj -> E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_5dd33.exe
+AppLocalFromInstalled:
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\tools\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_5dd33.exe" "E:\tools\vcpkg\installed\x64-windows\debug\bin" "cmTC_5dd33.dir\Debug\cmTC_5dd33.tlog\cmTC_5dd33.write.1u.tlog" "cmTC_5dd33.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Файл "cmTC_5dd33.dir\Debug\cmTC_5dd33.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_5dd33.dir\Debug\cmTC_5dd33.tlog\cmTC_5dd33.lastbuildstate".
+Сборка проекта "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_5dd33.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+
+"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_5dd33.vcxproj" (целевой объект по умолчанию) (1) ->
+(ClCompile конечный объект) -> 
+  cl : командная строка warning D9002: пропуск неизвестного параметра "/Qstd=c99" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_5dd33.vcxproj]
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:08.54
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_a3118.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.9.20+g88f5fadfbe для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата Вс 23 12 18 1:32:39.
+Проект "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_a3118.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_a3118.dir\Debug\".
+  Создание каталога "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_a3118.dir\Debug\cmTC_a3118.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_a3118.dir\Debug\cmTC_a3118.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "E:\tools\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3118.dir\Debug\\" /Fd"cmTC_a3118.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue  /Qstd=c99 E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27024.1 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3118.dir\Debug\\" /Fd"cmTC_a3118.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue  /Qstd=c99 E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c
+  HAVE_STDINT_H.c
+  
+cl : командная строка warning D9002: пропуск неизвестного параметра "/Qstd=c99" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_a3118.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_a3118.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\tools\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_a3118.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_a3118.lib" /MACHINE:X64  /machine:x64 cmTC_a3118.dir\Debug\HAVE_STDINT_H.obj
+  cmTC_a3118.vcxproj -> E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_a3118.exe
+AppLocalFromInstalled:
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\tools\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_a3118.exe" "E:\tools\vcpkg\installed\x64-windows\debug\bin" "cmTC_a3118.dir\Debug\cmTC_a3118.tlog\cmTC_a3118.write.1u.tlog" "cmTC_a3118.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Файл "cmTC_a3118.dir\Debug\cmTC_a3118.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_a3118.dir\Debug\cmTC_a3118.tlog\cmTC_a3118.lastbuildstate".
+Сборка проекта "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_a3118.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+
+"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_a3118.vcxproj" (целевой объект по умолчанию) (1) ->
+(ClCompile конечный объект) -> 
+  cl : командная строка warning D9002: пропуск неизвестного параметра "/Qstd=c99" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_a3118.vcxproj]
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:08.51
+
+
+Determining if the BZ2_bzCompressInit exist passed with the following output:
+Change Dir: E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6e840.vcxproj" "/p:Configuration=Debug" "/p:Platform=x64" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine версии 15.9.20+g88f5fadfbe для .NET Framework
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Сборка начата Вс 23 12 18 1:32:52.
+Проект "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_6e840.vcxproj" в узле 1 (целевые объекты по умолчанию).
+PrepareForBuild:
+  Создание каталога "cmTC_6e840.dir\Debug\".
+  Создание каталога "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\".
+  Создание каталога "cmTC_6e840.dir\Debug\cmTC_6e840.tlog\".
+InitializeBuildStatus:
+  Создание "cmTC_6e840.dir\Debug\cmTC_6e840.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "E:\tools\vcpkg\installed\x64-windows\"
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"E:\tools\vcpkg\installed\x64-windows-static\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e840.dir\Debug\\" /Fd"cmTC_6e840.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue  /Qstd=c99 E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.16.27024.1 для x64
+  (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+  
+  cl /c /I"E:\tools\vcpkg\installed\x64-windows-static\include" /I"C:\Program Files (x86)\Visual Leak Detector\include" /I"E:\tools\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e840.dir\Debug\\" /Fd"cmTC_6e840.dir\Debug\vc141.pdb" /Gd /TC /errorReport:queue  /Qstd=c99 E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+cl : командная строка warning D9002: пропуск неизвестного параметра "/Qstd=c99" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_6e840.vcxproj]
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_6e840.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"E:\tools\vcpkg\installed\x64-windows\debug\lib\manual-link" "E:\tools\vcpkg\installed\x64-windows-static\lib\bz2.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "E:\tools\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_6e840.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/Debug/cmTC_6e840.lib" /MACHINE:X64  /machine:x64 cmTC_6e840.dir\Debug\CheckSymbolExists.obj
+LINK : warning LNK4098: сшсышюЄхър яю єьюыўрэш■ "LIBCMT" яЁюЄштюЁхўшЄ шёяюы№чютрэш■ фЁєушї сшсышюЄхъ; шёяюы№чєщЄх ярЁрьхЄЁ /NODEFAULTLIB:library [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_6e840.vcxproj]
+  cmTC_6e840.vcxproj -> E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_6e840.exe
+AppLocalFromInstalled:
+  C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -noprofile -File "E:\tools\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\Debug\cmTC_6e840.exe" "E:\tools\vcpkg\installed\x64-windows\debug\bin" "cmTC_6e840.dir\Debug\cmTC_6e840.tlog\cmTC_6e840.write.1u.tlog" "cmTC_6e840.dir\Debug\vcpkg.applocal.log"
+FinalizeBuildStatus:
+  Файл "cmTC_6e840.dir\Debug\cmTC_6e840.tlog\unsuccessfulbuild" удаляется.
+  Обращение к "cmTC_6e840.dir\Debug\cmTC_6e840.tlog\cmTC_6e840.lastbuildstate".
+Сборка проекта "E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_6e840.vcxproj" завершена (целевые объекты по умолчанию).
+
+Сборка успешно завершена.
+
+"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_6e840.vcxproj" (целевой объект по умолчанию) (1) ->
+(ClCompile конечный объект) -> 
+  cl : командная строка warning D9002: пропуск неизвестного параметра "/Qstd=c99" [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_6e840.vcxproj]
+
+
+"E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_6e840.vcxproj" (целевой объект по умолчанию) (1) ->
+(Link конечный объект) -> 
+  LINK : warning LNK4098: сшсышюЄхър яю єьюыўрэш■ "LIBCMT" яЁюЄштюЁхўшЄ шёяюы№чютрэш■ фЁєушї сшсышюЄхъ; шёяюы№чєщЄх ярЁрьхЄЁ /NODEFAULTLIB:library [E:\tools\vcpkg\buildtrees\scotch\build\CMakeFiles\CMakeTmp\cmTC_6e840.vcxproj]
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:08.84
+
+File E:/tools/vcpkg/buildtrees/scotch/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <bzlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef BZ2_bzCompressInit
+  return ((int*)(&BZ2_bzCompressInit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
