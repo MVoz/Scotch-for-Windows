@@ -2,6 +2,8 @@ https://gforge.inria.fr/projects/scotch/
 
 # Scotch (ver.6.0.3) 
 
+# Many parameters are not required, this is as an example
+
 `cmake .. -LA -DCMAKE_INSTALL_PREFIX:PATH="../Rel" -DVCPKG_TARGET_TRIPLET=x64-windows-static -Ax64 -Wno-dev -DCMAKE_PREFIX_PATH="E:/tools/vcpkg/installed/x64-windows-static" -DDEBUG=OFF -DCMAKE_CONFIGURATION_TYPES=Debug;Release -DBUILD_TEST=OFF -DBUILD_TESTING=OFF -DBUILD_CLI_EXECUTABLES:BOOL=ON -DBUILD_TESTS=OFF -DBUILD_SHARED_LIBS=OFF -DCMAKE_Fortran_COMPILER_WORKS=1 -DCMAKE_Fortran_COMPILER=pgfortran -DBUILD_BOTH_STATIC_SHARED_LIB=ON -DCMAKE_VERBOSE_MAKEFILE=TRUE -G"Visual Studio 15 2017" -Dtriplet="x64-windows-static" -DUSE_THREADS=ON`
 
 cd build
